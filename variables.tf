@@ -2,8 +2,8 @@
 # configuration information.
 variable "openapi_config" {
   description = "The OpenAPI specification for the API"
-  type        = any
-  default     = {}
+  type        = string
+  default     = ""
 }
 
 variable "endpoint_type" {
