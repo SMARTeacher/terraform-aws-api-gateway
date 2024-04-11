@@ -127,3 +127,9 @@ variable "stage_name" {
   default     = ""
   description = "The name of the stage"
 }
+
+variable "log_group_name" {
+  type = string
+  default = ""
+  description = "The name of the CloudWatch log group"
+}
